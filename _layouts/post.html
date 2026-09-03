@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<article class="report-body">
+  <header class="report-header">
+    <p class="eyebrow">Daily report</p>
+    <h1>{{ page.title }}</h1>
+    <p class="meta">Published {{ page.date | date: "%B %-d, %Y" }} · America/Indiana/Indianapolis</p>
+    {% if page.summary %}<p class="lede">{{ page.summary }}</p>{% endif %}
+  </header>
+  {{ content }}
+  <hr>
+  <p class="small">Pricing and promotions can change without notice. The report distinguishes first-party/provider-confirmed information from community-only findings and classifies access type explicitly.</p>
+</article>
