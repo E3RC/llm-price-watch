@@ -1,0 +1,22 @@
+title: LLM Price Watch
+description: Daily LLM pricing, free model, coding-agent, OpenCode, OpenRouter, Azure AI Foundry, and direct vendor market watch.
+url: "https://e3rc.github.io"
+baseurl: "/llm-price-watch"
+timezone: America/Indiana/Indianapolis
+permalink: /reports/:year/:month/:day/:title/
+markdown: kramdown
+future: false
+
+collections:
+  posts:
+    output: true
+
+exclude:
+  - README.md
+
+# GitHub Pages supports these plugins natively.
+plugins:
+  - jekyll-feed
+
+feed:
+  path: feed.xml
