@@ -57,7 +57,7 @@ title: Current Deals
 | **MiniMax M3 — OpenRouter paid** | General API | **~$0.23–$0.24 / $0.96** | Cheap paid fallback when free M3 routes are throttled. |
 | **DeepSeek V4 Flash — Azure Foundry Direct** | Azure serverless/API | **$0.19 / $0.51; cache $0.028** | Azure enterprise privacy/governance; cheaper than DeepSeek direct on uncached sticker price. |
 | DeepSeek V4 Flash — direct | General API | **$0.22 / $0.66 off-peak; cache $0.007** | First-party route; unusually cheap cache hits. |
-| **Qwen3.8 Flash — Alibaba Virginia** | General API | **about $0.119 / $0.402** | 1M-class direct global-region price. |
+| **Qwen3.8 Flash — Alibaba global** | General API | **$0.15 / $0.47** | 1M context; current first-party Model Studio global rate. |
 | **Kimi K2.7 Code — Moonshot direct** | General API | **$0.95 cache-miss / $4.00 output; $0.19 cache-hit** | 262K context; Azure now has both Direct-from-Azure and Fireworks variants. |
 | MiniMax M3 — direct ≤512K | General API | **$0.30 / $1.20** | Native multimodal, 1M-model family; separate Token Plan is personal/interactive. |
 
