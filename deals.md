@@ -17,6 +17,7 @@ title: Current Deals
 | Offer | Access Type | Current deal | Why it matters |
 |---|---|---|---|
 | **Vercel AI Gateway MiniMax M3** | OpenAI/Anthropic-compatible API gateway | **FREE** | **1M context**, native text/image/video and strong coding/agent focus. No expiry is published on the current model page. |
+| **Vercel AI Gateway MiniMax M2.7 Free** | OpenAI/Anthropic-compatible API gateway | **FREE** | `minimax/minimax-m2.7-free`, ~197K context/output and a strong software-engineering/agent focus. No expiry is published on the current model page. |
 | **OpenRouter MiniMax M3 Free** | General API | **$0 today** | 1M multimodal model. Community posts suggested Sep. 6 expiry, but the first-party route is still live; treat expiry as unverified. |
 | **OpenRouter Dots3 Note Preview Free** | OpenAI-compatible API | **$0 through Sep. 30, 2026** | **512K context**, text+image, tools and structured output; explicitly temporary. |
 | **OpenRouter Ling 3.0 Flash Sante Free** | OpenAI-compatible API | **$0** | **262K context**, 32K max output and tools; medicine-focused but retains general coding/agent capabilities. |
@@ -67,6 +68,8 @@ title: Current Deals
 
 | Offer | Access Type | Current deal | Catch |
 |---|---|---|---|
+| **Vercel MiniMax M3 Free** | API gateway | **FREE as of Sep. 6 morning** | Community-reported Sep. 6 expiry is not first-party-confirmed; route can vanish or rate-limit. |
+| **Vercel MiniMax M2.7 Free** | API gateway | **FREE as of Sep. 6 morning** | First-party free model ID is live; no expiry is published. |
 | **OpenRouter MiniMax M3 Free** | General API | **FREE as of Sep. 6 morning** | Community-reported Sep. 6 expiry is not first-party-confirmed; route can vanish or rate-limit. |
 | OpenRouter Dots3 Note Preview | General API | **FREE** | Explicitly going away **September 30, 2026**. |
 | **OpenCode GLM-5.3-Flash** | Go provider/API | **2× usage limits** | Limited-time promo; no first-party end date published. |
@@ -79,7 +82,7 @@ title: Current Deals
 
 - **OpenCode DeepSeek ZDR is current:** Go docs say the agreement is valid through **September 30, 2026**.
 - **Muse Contributor is not private capacity:** OpenCode explicitly permits Meta training on Contributor prompts/completions.
-- **OpenCode Zen now documents six free models:** Muse Spark 1.2 Contributor Free has dropped from the current English list.
+- **OpenCode Zen's freshest indexed English pricing page advertises six free models:** older cached model catalogs expose extra legacy/free-looking IDs, but those are not treated as live persistent deals without fresh confirmation.
 - **Command Code Go still has no Provider API:** GOAT and higher eligible plans do; Go remains agent/CLI-only.
 - **Alibaba Token Plan is not general API access:** its terms restrict use to interactive coding/agent tools and prohibit custom backends, automation scripts and non-interactive batch calls.
 - **Azure Direct is different from Fireworks on Foundry:** Microsoft controls Azure Direct model handling; Fireworks routes run on partner infrastructure and have a different data-residency/privacy boundary.
@@ -87,18 +90,18 @@ title: Current Deals
 
 ## Community watch — not confirmed deals
 
-- **OpenRouter MiniMax M3 expiry:** Reddit users reported Sep. 6 as the free-route end date. The first-party OpenRouter page still shows it free this morning, so the route is active but the expiry claim remains unverified.
+- **Vercel/OpenRouter MiniMax M3 expiry:** Reddit users reported Sep. 6 as the free-route end date. First-party pages still show free access this morning, so the route is active but the expiry claim remains unverified.
 - **Omen Alpha identity:** community tokenizer/vision probes have suggested a GLM/Zhipu-family model, but OpenCode has not officially identified it.
 - **GLM-5.3-Flash Go promo expiry:** a Reddit claim says Sep. 13; OpenCode only says “limited time,” so the date is unverified.
 - **Doubao Coding Plan ¥9.9 first month:** surfaced from ByteDance developer-community material; verify at checkout before treating it as a persistent subscription price.
 
 ## Removed / no longer confirmed
 
-- **OpenCode Muse Spark 1.2 Contributor Free** — removed from the current documented English Zen free list.
+- **OpenCode Muse Spark 1.2 Contributor Free** — no longer on the freshest indexed English Zen free list.
 - **01.AI / Yi public hosted API** — prior public hosted access is no longer carried as a current deal; open weights/self-hosting are separate.
 - **Ox Alpha Free** — preview ended and was identified as **GLM-5.3-Flash**.
 - **Hy3 Free on OpenCode Zen** — no longer on the current documented free list.
-- Unadvertised OpenCode IDs such as `deepseek-v4-flash-free` or `laguna-s-2.1-free` are not counted as persistent Zen deals unless current documentation or a fresh endpoint confirms them.
+- Unadvertised/stale OpenCode IDs such as `deepseek-v4-flash-free`, `laguna-s-2.1-free`, `north-mini-code-free`, `longcat-2.0-free` or `ling-3.0-tiny-free` are watch-list items, not persistent Zen deals, unless a fresh endpoint/doc confirms them.
 
 ## What counts as a real deal
 
