@@ -44,8 +44,8 @@ title: Current Deals
 | Tencent General Lite | specific-client-only | **¥39/mo (~$5.81)** | Broad multi-model plan; Sep. selected-model coefficient promo active. |
 | Xiaomi MiMo Lite | specific-client-only Token Plan | **$5.28 annual-equivalent / $6 monthly** | MiMo coding plan, no 5h cap; interactive/developer usage rather than unrestricted production API. |
 | Alibaba Token Plan Lite | specific-client-only | **¥39/mo (~$5.81)** | Plan key is for approved interactive coding/agent tools, not arbitrary automation/backends. |
-| **Baidu Qianfan 50K-credit welfare pack** | specific-client/token pack | **¥45 first buy / ¥50 list (~$6.71 / $7.45)** | Current first-party welfare-package pricing; replaces older unverified Mini/Lite checkout figures. |
-| **StepFun Flash Mini** | hosted/specific-client agent | **¥49/mo (~$7.30)** | Current docs list ¥49; live checkout page may hide numeric pricing. |
+| **Baidu Qianfan 50K-credit welfare pack** | specific-client/token pack | **¥45 first buy / ¥50 list (~$6.71 / $7.45)** | Current first-party welfare-package pricing. |
+| **StepFun Flash Mini** | hosted/specific-client agent | **last verified ¥49/mo (~$7.30)** | Live Step Plan page currently hides numeric pricing; re-check checkout before purchase. |
 | **Command Code GOAT** | **agent/CLI + OpenAI/Anthropic-compatible Provider API** | **$10/mo** | $70 monthly credits; unlike Go, Provider API access is explicitly included. |
 | OpenCode Go | provider/API for coding agents | **$10/mo** | 27-model curated pool; $12/5h, $30/week, $60/month base limits. |
 
@@ -61,6 +61,7 @@ title: Current Deals
 | **Qwen3.8 Flash — Alibaba Virginia Global** | General API | **$0.113 / $0.382** | 1M context; strong hyperscaler raw price. |
 | Qwen3.8 Max — Alibaba Global | General API | **$1.65 / $4.951** | Lower than the Singapore $2/$6 tier. |
 | Kimi K2.7 Code | General API | **~$0.95 / $4.00; cache ~$0.19** | Common direct/provider rate; Azure/Fireworks variants exist. |
+| **GPT-6 Astra Batch / Flex** | General API / batch or flex | **$5 / $25; cache $0.50** | **50% below Standard $10/$50**; best for asynchronous/non-latency-sensitive work. |
 
 ## Time-limited / watch closely
 
@@ -68,7 +69,7 @@ title: Current Deals
 |---|---|---|---|
 | **OpenRouter MiniMax M3 Free** | General API | **FREE as of Sep. 6 morning** | Community-reported Sep. 6 expiry is not first-party-confirmed; route can vanish or rate-limit. |
 | OpenRouter Dots3 Note Preview | General API | **FREE** | Explicitly going away **September 30, 2026**. |
-| **OpenCode GLM-5.3-Flash** | Go provider/API | **2× usage limits** | Limited-time promo; no published end date. |
+| **OpenCode GLM-5.3-Flash** | Go provider/API | **2× usage limits** | Limited-time promo; no first-party end date published. |
 | OpenCode GPT-5.6 Sol | Zen API | **50% off** | Published through **September 18, 2026**. |
 | **Tencent GLM-5.3-Flash PAYG** | General API | **50% of list price** | Current promotion through **September 10, 2026 Beijing time**. |
 | **Tencent September personal-plan promo** | specific-client-only | **50% credit coefficients** on selected models | Runs **Sep. 1-30 Beijing time**. |
@@ -78,25 +79,25 @@ title: Current Deals
 
 - **OpenCode DeepSeek ZDR is current:** Go docs say the agreement is valid through **September 30, 2026**.
 - **Muse Contributor is not private capacity:** OpenCode explicitly permits Meta training on Contributor prompts/completions.
-- **OpenCode Zen now documents six free models:** Muse Spark 1.2 Contributor Free has dropped from the current list.
+- **OpenCode Zen now documents six free models:** Muse Spark 1.2 Contributor Free has dropped from the current English list.
 - **Command Code Go still has no Provider API:** GOAT and higher eligible plans do; Go remains agent/CLI-only.
 - **Alibaba Token Plan is not general API access:** its terms restrict use to interactive coding/agent tools and prohibit custom backends, automation scripts and non-interactive batch calls.
 - **Azure Direct is different from Fireworks on Foundry:** Microsoft controls Azure Direct model handling; Fireworks routes run on partner infrastructure and have a different data-residency/privacy boundary.
+- **GPT-6 Astra Batch/Flex is a billing mode, not a cheaper model variant:** OpenAI explicitly prices it at 50% of Standard in exchange for non-standard latency/queue characteristics.
 
 ## Community watch — not confirmed deals
 
 - **OpenRouter MiniMax M3 expiry:** Reddit users reported Sep. 6 as the free-route end date. The first-party OpenRouter page still shows it free this morning, so the route is active but the expiry claim remains unverified.
 - **Omen Alpha identity:** community tokenizer/vision probes have suggested a GLM/Zhipu-family model, but OpenCode has not officially identified it.
-- **Doubao Coding Plan ¥9.9 first month:** surfaced from ByteDance developer-community material, but no clean current checkout page was verified today; treat as a lead, not a confirmed persistent deal.
+- **GLM-5.3-Flash Go promo expiry:** a Reddit claim says Sep. 13; OpenCode only says “limited time,” so the date is unverified.
+- **Doubao Coding Plan ¥9.9 first month:** surfaced from ByteDance developer-community material; verify at checkout before treating it as a persistent subscription price.
 
 ## Removed / no longer confirmed
 
-- **OpenCode Muse Spark 1.2 Contributor Free** — removed from the current documented Zen free list.
+- **OpenCode Muse Spark 1.2 Contributor Free** — removed from the current documented English Zen free list.
 - **01.AI / Yi public hosted API** — prior public hosted access is no longer carried as a current deal; open weights/self-hosting are separate.
 - **Ox Alpha Free** — preview ended and was identified as **GLM-5.3-Flash**.
 - **Hy3 Free on OpenCode Zen** — no longer on the current documented free list.
-- **Older Baidu Qianfan Mini/Lite ¥4.9/¥9.9 checkout claims** — replaced with the currently verified 50K-credit welfare pack at ¥45 first-buy / ¥50 list.
-- **Older StepFun ¥39 entry-plan figure** — replaced with the current docs' Flash Mini at ¥49/month.
 - Unadvertised OpenCode IDs such as `deepseek-v4-flash-free` or `laguna-s-2.1-free` are not counted as persistent Zen deals unless current documentation or a fresh endpoint confirms them.
 
 ## What counts as a real deal
