@@ -16,23 +16,17 @@ title: Current Deals
 
 | Offer | Access Type | Current deal | Why it matters |
 |---|---|---|---|
-| **Vercel AI Gateway MiniMax M3** | OpenAI/Anthropic-compatible API gateway | **FREE** | **1M context**, native text/image/video and strong coding/agent focus. No expiry is published on the current model page. |
-| **Vercel AI Gateway MiniMax M2.7 Free** | OpenAI/Anthropic-compatible API gateway | **FREE** | `minimax/minimax-m2.7-free`, ~197K context/output and a strong software-engineering/agent focus. No expiry is published on the current model page. |
-| **OpenRouter MiniMax M3 Free** | General API | **$0 today** | 1M multimodal model. Community posts suggested Sep. 6 expiry, but the first-party route is still live; treat expiry as unverified. |
-| **OpenRouter Dots3 Note Preview Free** | OpenAI-compatible API | **$0 through Sep. 30, 2026** | **512K context**, text+image, tools and structured output; explicitly temporary. |
-| **OpenRouter Ling 3.0 Flash Sante Free** | OpenAI-compatible API | **$0** | **262K context**, 32K max output and tools; medicine-focused but retains general coding/agent capabilities. |
+| **Vercel AI Gateway MiniMax M2.7 Free** | OpenAI/Anthropic-compatible API gateway | **FREE** | `minimax/minimax-m2.7-free`, ~197K context/output and strong software-engineering focus. |
+| **OpenRouter MiniMax M3 Free** | General API | **$0** | **1M context**, text/image/video and agent/tool support; still live after Vercel's M3 promotion ended. |
 | OpenRouter Pareto Code Router | OpenAI/Anthropic-compatible API/router | **$0** | 13 coding models, **2M context**, automatic coding-model routing. |
-| OpenRouter Free Router | OpenAI-compatible API/router | **$0** | Capability-aware routing across a rotating free pool. |
+| OpenRouter Free Router | OpenAI-compatible API/router | **$0** | Capability-aware routing across a rotating 24-model free pool. |
 | **OpenCode Muse Spark 1.3 Contributor Free** | Zen provider API | **$0** | Multimodal coding/agent route. **Prompts/completions may train future Meta models**. |
 | OpenCode MiMo-V2.5 Free | Zen provider API | **$0** | Strong multimodal coding/agent fallback; limited-time. |
 | OpenCode Ling 3.0 Flash Fin Free | Zen provider API | **$0** | Coding-oriented free route; limited-time. |
 | OpenCode Nemotron 3 Ultra / 3.5 Lightning Free | Zen provider API | **$0** | NVIDIA trial routes; logging/trial terms apply. |
 | OpenCode Big Pickle | Zen provider API | **$0** | Stealth-model free route; free-period data may improve the model. |
-| SenseNova International public beta | Plan API / agent endpoint | **$0** | 1,500 calls per model / 5h, multimodal models, up to 20 API keys. |
-| SenseNova China public beta | Plan API / agent endpoint | **¥0** | 60,000 credits / 5h, up to 20 API keys. Regional plan; do not confuse with international quota. |
-| **Z.ai AutoClaw new-user grant** | Specific-client desktop agent | **100M GLM-5.3-Flash tokens** | Large new-user grant; not unrestricted backend API credit. |
 | **Command Code Laguna S 2.1** | Go = agent/CLI-only; API on eligible Provider plans | **$0 while capacity lasts** | Requests cost no credits; promo/capacity dependent. |
-| **Command Code Ling 3.0 Flash** | Go = agent/CLI-only; API on eligible Provider plans | **$0 while promotion lasts** | Newly confirmed no-credit model route. |
+| **Command Code Ling 3.0 Flash** | Go = agent/CLI-only; API on eligible Provider plans | **$0 while promotion lasts** | Current no-credit model route. |
 | **Command Code LongCat 2.0** | Go = agent/CLI-only; API on eligible Provider plans | **$0 while it lasts** | 1M-context model; no model-credit consumption during promo. |
 | Azure new-account credit | Azure services credit | **$200 / 30 days** | Useful for Foundry testing; Marketplace/model eligibility varies. |
 
@@ -41,12 +35,9 @@ title: Current Deals
 | Plan | Access Type | Current price | Watch target |
 |---|---|---:|---|
 | **Command Code Go** | **agent/CLI-only — NO Provider API** | **$1/mo** | $10 monthly credits; Laguna, Ling and LongCat currently have $0 model usage. |
-| Tencent Hy Lite | specific-client-only | **¥28/mo (~$4.17)** | Hy-focused coding/agent plan; backend/automation use is restricted. |
-| Tencent General Lite | specific-client-only | **¥39/mo (~$5.81)** | Broad multi-model plan; Sep. selected-model coefficient promo active. |
-| Xiaomi MiMo Lite | specific-client-only Token Plan | **$5.28 annual-equivalent / $6 monthly** | MiMo coding plan, no 5h cap; interactive/developer usage rather than unrestricted production API. |
-| Alibaba Token Plan Lite | specific-client-only | **¥39/mo (~$5.81)** | Plan key is for approved interactive coding/agent tools, not arbitrary automation/backends. |
-| **Baidu Qianfan 50K-credit welfare pack** | specific-client/token pack | **¥45 first buy / ¥50 list (~$6.71 / $7.45)** | Current first-party welfare-package pricing. |
-| **StepFun Flash Mini** | hosted/specific-client agent | **last verified ¥49/mo (~$7.30)** | Live Step Plan page currently hides numeric pricing; re-check checkout before purchase. |
+| Tencent Hy Lite | specific-client-only | **¥28/mo (~$4.17)** | Hunyuan-focused coding/agent plan. |
+| **Alibaba Token Plan Lite** | **specific-client/tool-oriented plan API** | **$8 list / $6 promo** | 2,500 credits per 7-day window; Singapore; interactive coding/agent tools only, not arbitrary production backends. |
+| Tencent International Lite | specific-client-only | **$7/mo** | 1,000 credits; international coding-agent plan. |
 | **Command Code GOAT** | **agent/CLI + OpenAI/Anthropic-compatible Provider API** | **$10/mo** | $70 monthly credits; unlike Go, Provider API access is explicitly included. |
 | OpenCode Go | provider/API for coding agents | **$10/mo** | 27-model curated pool; $12/5h, $30/week, $60/month base limits. |
 
@@ -54,57 +45,50 @@ title: Current Deals
 
 | Model / route | Access Type | Current price / 1M tokens | Watch target |
 |---|---|---:|---|
-| **DeepSeek V4 Flash — OpenRouter / Baidu Qianfan** | General API | **$0.04998 input / $0.09996 output** | **Raw-price leader among clearly identified routes today**; provider policy and routing quality still matter. |
-| DeepSeek V4 Flash — OpenRouter Nitro | General API/router | headline **$0.045 / $0.09** | Even lower headline; provider mix is less transparent than pinning Baidu. |
-| **Alibaba-hosted DeepSeek V4 Flash — Virginia Global** | General API | **$0.138 / $0.275** | Current first-party Alibaba rate; below Azure and DeepSeek direct uncached pricing. |
+| **DeepSeek V4 Flash — OpenRouter headline** | General API/router | **from $0.045 input / $0.09 output** | Lowest aggregate headline today; provider can vary unless pinned. |
+| **DeepSeek V4 Flash — OpenInference pinned** | General API | **$0.05 / $0.16** | Strong named-provider option. |
+| **DeepSeek V4 Flash — Baidu pinned** | General API | **$0.14 / $0.28** | Current Baidu provider rate; supersedes the stale ~$0.05/$0.10 figure. |
 | **DeepSeek V4 Flash — Azure Direct** | Azure serverless API | **$0.19 / $0.51; cache $0.028** | Enterprise privacy/governance route; not raw-price winner. |
-| DeepSeek V4 Flash — direct | General API | **$0.22 / $0.66 off-peak; cache $0.007** | First-party route; unusually cheap off-peak cache hits. |
-| **Qwen3.8 Flash — Alibaba Virginia Global** | General API | **$0.113 / $0.382** | 1M context; strong hyperscaler raw price. |
+| DeepSeek V4 Flash — direct | General API | **$0.22 / $0.66 off-peak; cache $0.007** | First-party route; unusually cheap cache hits. |
+| **Qwen3.8 Flash — Alibaba Global regions** | General API | **$0.113 / $0.382** | 1M-context hyperscaler route. |
 | Qwen3.8 Max — Alibaba Global | General API | **$1.65 / $4.951** | Lower than the Singapore $2/$6 tier. |
-| Kimi K2.7 Code | General API | **~$0.95 / $4.00; cache ~$0.19** | Common direct/provider rate; Azure/Fireworks variants exist. |
-| **GPT-6 Astra Batch / Flex** | General API / batch or flex | **$5 / $25; cache $0.50** | **50% below Standard $10/$50**; best for asynchronous/non-latency-sensitive work. |
 
 ## Time-limited / watch closely
 
 | Offer | Access Type | Current deal | Catch |
 |---|---|---|---|
-| **Vercel MiniMax M3 Free** | API gateway | **FREE as of Sep. 6 morning** | Community-reported Sep. 6 expiry is not first-party-confirmed; route can vanish or rate-limit. |
-| **Vercel MiniMax M2.7 Free** | API gateway | **FREE as of Sep. 6 morning** | First-party free model ID is live; no expiry is published. |
-| **OpenRouter MiniMax M3 Free** | General API | **FREE as of Sep. 6 morning** | Community-reported Sep. 6 expiry is not first-party-confirmed; route can vanish or rate-limit. |
-| OpenRouter Dots3 Note Preview | General API | **FREE** | Explicitly going away **September 30, 2026**. |
+| **Vercel MiniMax M2.7 Free** | API gateway | **FREE** | First-party free model ID is live; no expiry published. |
+| **OpenRouter MiniMax M3 Free** | General API | **FREE** | Still live today; free routes can disappear or rate-limit. |
 | **OpenCode GLM-5.3-Flash** | Go provider/API | **2× usage limits** | Limited-time promo; no first-party end date published. |
 | OpenCode GPT-5.6 Sol | Zen API | **50% off** | Published through **September 18, 2026**. |
-| **Tencent GLM-5.3-Flash PAYG** | General API | **50% of list price** | Current promotion through **September 10, 2026 Beijing time**. |
-| **Tencent September personal-plan promo** | specific-client-only | **50% credit coefficients** on selected models | Runs **Sep. 1-30 Beijing time**. |
-| Alibaba Token Plan night discount | specific-client-only | **50% credit consumption** on selected models | 22:00-08:00 UTC+8; current model list varies. |
+| Alibaba Token Plan night discount | specific-client/tool-oriented | **50% credit consumption** on selected models | 22:00-08:00 UTC+8; current model list varies. |
 
 ## Privacy / access notes worth knowing
 
 - **OpenCode DeepSeek ZDR is current:** Go docs say the agreement is valid through **September 30, 2026**.
 - **Muse Contributor is not private capacity:** OpenCode explicitly permits Meta training on Contributor prompts/completions.
-- **OpenCode Zen's freshest indexed English pricing page advertises six free models:** older cached model catalogs expose extra legacy/free-looking IDs, but those are not treated as live persistent deals without fresh confirmation.
+- **OpenCode Zen currently documents six free models.** Legacy/free-looking IDs are not treated as live persistent deals without fresh confirmation.
 - **Command Code Go still has no Provider API:** GOAT and higher eligible plans do; Go remains agent/CLI-only.
-- **Alibaba Token Plan is not general API access:** its terms restrict use to interactive coding/agent tools and prohibit custom backends, automation scripts and non-interactive batch calls.
-- **Azure Direct is different from Fireworks on Foundry:** Microsoft controls Azure Direct model handling; Fireworks routes run on partner infrastructure and have a different data-residency/privacy boundary.
-- **GPT-6 Astra Batch/Flex is a billing mode, not a cheaper model variant:** OpenAI explicitly prices it at 50% of Standard in exchange for non-standard latency/queue characteristics.
+- **Alibaba Token Plan is not general backend API access:** its terms restrict Personal-plan use to interactive coding/agent tools and prohibit custom backends, automation scripts and non-interactive batch calls.
+- **Azure Direct is different from Fireworks on Foundry:** Azure Direct gets Microsoft's provider-isolation/data-handling boundary; Fireworks routes run on partner infrastructure.
 
 ## Community watch — not confirmed deals
 
-- **Vercel/OpenRouter MiniMax M3 expiry:** Reddit users reported Sep. 6 as the free-route end date. First-party pages still show free access this morning, so the route is active but the expiry claim remains unverified.
-- **Omen Alpha identity:** community tokenizer/vision probes have suggested a GLM/Zhipu-family model, but OpenCode has not officially identified it.
-- **GLM-5.3-Flash Go promo expiry:** a Reddit claim says Sep. 13; OpenCode only says “limited time,” so the date is unverified.
-- **Doubao Coding Plan ¥9.9 first month:** surfaced from ByteDance developer-community material; verify at checkout before treating it as a persistent subscription price.
+- **Omen Alpha identity:** community tokenizer/vision probes continue to suggest a GLM/Zhipu-family relationship, but OpenCode has not identified the model.
+- **Possible Omen Alpha Free breadcrumb:** a community-discovered `OMEN-ALPHA-free:global` string has circulated, but no live free endpoint is confirmed.
+- **GLM-5.3-Flash Go promo expiry:** community claims cite dates, but OpenCode itself only says “limited time.”
 
-## Removed / no longer confirmed
+## Removed / expired / corrected
 
-- **OpenCode Muse Spark 1.2 Contributor Free** — no longer on the freshest indexed English Zen free list.
-- **01.AI / Yi public hosted API** — prior public hosted access is no longer carried as a current deal; open weights/self-hosting are separate.
+- **Vercel MiniMax M3 Free** — **expired**; the live Vercel page now shows paid providers from roughly **$0.26/$1.02 per M**. The explicit M2.7 Free route remains live.
+- **Baidu-pinned DeepSeek V4 Flash at ~$0.05/$0.10** — **stale**; Baidu's current OpenRouter provider page shows **$0.14/$0.28**. OpenRouter's overall headline can still reach $0.045/$0.09 through other routing.
+- **Alibaba Token Plan Lite at ¥39** — **corrected**; the current Personal Token Plan Lite is **$8 list / $6 promotional**, Singapore region. Do not confuse it with the older/discontinued Coding Plan product.
+- **OpenCode Muse Spark 1.2 Contributor Free** — no longer on the current Zen free list.
 - **Ox Alpha Free** — preview ended and was identified as **GLM-5.3-Flash**.
 - **Hy3 Free on OpenCode Zen** — no longer on the current documented free list.
-- Unadvertised/stale OpenCode IDs such as `deepseek-v4-flash-free`, `laguna-s-2.1-free`, `north-mini-code-free`, `longcat-2.0-free` or `ling-3.0-tiny-free` are watch-list items, not persistent Zen deals, unless a fresh endpoint/doc confirms them.
 
 ## What counts as a real deal
 
 A low headline price is not enough. The daily watch checks **access type, usable quota, expiry, privacy/training terms, region, rate limits, latency, and whether the endpoint actually works in common coding agents** before calling something a bargain.
 
-Plans that expose an API-shaped key but explicitly restrict it to interactive coding/agent clients are classified **specific-client-only**, not general backend API access. Azure Direct serverless token pricing, partner offers such as Fireworks-on-Foundry, Azure provisioned throughput and managed GPU compute are also kept separate because their economics and privacy boundaries are not interchangeable.
+Plans that expose an API-shaped key but explicitly restrict it to interactive coding/agent clients are classified **specific-client/tool-oriented**, not general backend API access. Azure Direct serverless token pricing, partner offers such as Fireworks-on-Foundry, Azure provisioned throughput and managed GPU compute are also kept separate because their economics and privacy boundaries are not interchangeable.
